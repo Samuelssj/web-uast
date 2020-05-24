@@ -1,89 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FaceBook</title>
-  <link rel="stylesheet" href="style.css">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header>
-<div class = "centro">
+    <div class="bartop">
+        <div class="logo">
+            <h2>facebook</h2>
+        </div>
+        <div class="login">
+            <div class="elementos">
+                <form method="POST" class="elementos">
+                    <div class="elementos">
+                        <p>Email ou Telefone</p>
+                        <input type="email">
 
-  <div class="logo">
-    <h2>facebook</h2>
-</div><!--logo-->
+                    </div>
+                    <div class="elementos">
+                        <p>Senha</p>
+                        <input type="password">
+                    </div>
+            </div>
+            <div class="elementos">
+                <input type="submit" name="acao" value="Enviar">
 
-<form method="POST" class="form-login">
-  <div class="form-login">
-    <div class="form-elementos">
-      <p>Email ou Telefone</p>
-      <input type="email">
+                </form>
+            </div>
+            <div class="esqueceu">
+                <p id="esqueceu">Esqueceu a conta?</p>
+            </div>
+        </div>
     </div>
-    <!--form-elementos-->
-    <div class="form-elementos">
-      <p>Senha</p>
-      
-      <input type="password">
+    <div class="centro">
+        <div class="mapa">
+            <p id="txt1">O Facebook ajuda você a se conectar e <br>compartilhar com as pessoas que fazem parte <br> da sua vida.</p>
+            <div class="mapap">
+                <img id="img" src="face.png" alt="Mapa-facebook">
+            </div>
+        </div>
+        <div class="abrir-conta">
+            <h2>Abra uma conta</h2>
+            <h3>É rápido e fácil.</h3>
+
+            <form class="criar-conta">
+                <div class="w50">
+                    <input placeholder="Nome" type="text">
+                </div>
+                <!--div-w50-->
+
+                <div class="w50">
+                    <input placeholder="Sobrenome" type="text">
+                </div>
+                <!--div-w50-->
+
+                <div class="w100">
+                    <input placeholder="Celular ou email" type="email">
+                </div>
+                <!--div-w100-->
+
+                <div class="w100">
+                    <input placeholder="Nova senha" type="password">
+                </div>
+                <!--div-w100-->
+                <div class="w100">
+                    <h2>Data de nascimento</h2>
+                    <select name="nacimentodia" class="nacimento">
+                    <option value="1">1</option>
+                    </select>
+                    <select name="nacimentomes" class="nacimento">
+                        <option value="0">maio</option>
+                        </select>
+                    <select name="nacimentoano" class="nacimento">
+                    <option value="o">1995</option>
+                    </select>
+                </div>
+                <div class="w100">
+
+                    <h2>Gênero</h2>
+
+                    <div class="inputradio">
+                        <input type="radio" name="sexo" value="masculino">
+                        <h2>Masculino</h2>
+                    </div>
+                    <div class="inputradio">
+                        <input type="radio" name="sexo" value="Feminino">
+                        <h2>Feminino</h2>
+                    </div>
+                    <div class="inputradio">
+
+                        <input type="radio" name="sexo" value="Personalizado">
+                        <h2>Personalizado</h2>
+                    </div>
+                </div>
+
+                <div class="w100">
+
+                    <input type="submit" name="acao" value="Cadastre-se">
+                </div>
+        </div>
+        </form>
     </div>
-    <!--form-elementos-->
-    <div class="form-elementos">
-      <input type="submit" name="acao" value="Entrar">
+
+    <div class="rodape">
+
+        <div class="rodape">
+            <a class="selet" id="selec" href="#">Portugues(BR)</a>
+            <a class="selet" href="#">English(US)</a>
+            <a class="selet" href="#">Español</a>
+            <a class="selet" href="#">Français(France)</a>
+            <a class="selet" href="#">Italiano</a>
+            <a class="selet" href="#">لعربية </a>
+            <a class="selet" href="#">Deutsch</a>
+            <a class="selet" href="#">हिन्दी </a>
+            <a class="selet" href="#">中文(简体)</a>
+            <a class="selet" href="#">日本語</a>
+        </div>
+
+        <div class="rodape">
+            <div class="selet">
+                <a class="selet" href="#">Cadastre-se</a>
+                <a class="selet" href="#">Entrer</a>
+                <a class="selet" href="#">Messenger</a>
+                <a class="selet" href="#">Facebook Lite</a>
+                <a class="selet" href="#">Watch</a>
+                <a class="selet" href="#">Pessoas </a>
+                <a class="selet" href="#">Páginas</a>
+                <a class="selet" href="#">Categorias de Página </a>
+                <a class="selet" href="#">Locais</a>
+                <a class="selet" href="#">Jogos</a>
+            </div>
+        </div>
     </div>
-    <p id="esquecer_senha">Esqueceu a conta?</p>
-    <!--form-elementos-->
 
-</form>
-
-
-
-</div><!--div_centro-->
-
-
-</header>  
-
-<div class="main">
-
-    <div class="msg">
-      <p id="mensagem">O Facebook ajuda você a se conectar e <br> compartilhar com as pessoas que fazem parte <br> da sua vida.</p>
-      
-    </div>
-    <!--img-pessoas-->
-
-    <img id="img" src="E:\AUFRPE\WEB\Samuel htmls\facelogin\face.png" width="537" height="195" alt="Carregando Foto">
-  </form><!--criarconta-->
-  
-    <div class="abrir-conta">
-      <h2>Abra uma conta</h2>
-      <h3>É rápido e fácil.</h3>
-
-      <form class="criar-conta">
-        <div class ="w50">
-          <input  placeholder="Nome" type="text">
-        </div><!--div-w50-->
-
- <div class ="w50">
-          <input  placeholder= "Sobrenome" type="text">
-        </div><!--div-w50-->
-
-        <div class ="w100">
-          <input  placeholder= "E-mail" type="email">
-        </div><!--div-w100-->
-
-        <div class ="w100">
-          <input  placeholder= "Senha" type="password">
-        </div><!--div-w100-->
-
-    
-    </div><!--abrir-Conta-->
-    <div class="clear"></div>
- 
-</div>
-<!--main-->
 
 
 </body>
+
+
+
 </html>
