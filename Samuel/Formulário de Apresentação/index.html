@@ -1,0 +1,97 @@
+<DOCTYPE html>
+
+    <html>
+<head>
+<title>teste de html</title>
+<meta charset = "utf8">
+</head>
+
+
+<body>
+    <h7><strong>Criar Conta</strong></h7>
+    <form action = "http://www.atdsistemas.com.br/web/formulario/" name="Submeter" enctype="multipart/form-data" method="POST">
+    <fieldset>
+        <legend> Informações pessoais
+        </legend>
+
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required>
+            <br>
+            <br>
+            <label for="Foto">Foto</label>
+            <input type="file"name= "foto" id="Foto" required>
+            <br>
+            <br>
+            <label for="endereco">Endereco</label>
+            <input type="text"name="endereco" id="endereco" required>
+
+            <br>
+            <br>
+
+            <label for="radio">Sexo</label>
+            <br>
+            <br>
+            <input type="radio"  name="radio" id="mas" required><label for="mas">masculino</label>
+            <br>
+            <input type="radio" name="radio" id="fem" required><label for="fem">feminino</label>
+          <br>
+            <input type="radio" name="radio" id="ind" required><label for="ind">não definido</label>
+        <br>
+        <br>
+            <label for="">nivel de formação Academica Concluido</label>
+            <select name="formacao" id="">
+            <option value="infantil">Ensino infantil</option>
+            <option value="fundamental">Ensino Fundamental</option>
+            <option value="medio">Ensino medio</option>
+            <option value="superior">Ensino Superior</option>
+            </select>
+            <br>
+            <br>
+            <label for="quem sou ?">Quem Sou eu?</label><br>
+            <textarea name="" id="" cols="50" rows="2"></textarea>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Redes Sociais
+            </legend>
+    <label for=""><strong>twitter</strong></label>
+    <input type="url">
+    <br><br>
+    <label for=""><strong>Instagram</strong></label>
+    <input type="url">
+    <br><br>
+    <label for=""><strong>Facebook</strong></label>
+    <input type="url">
+    <br><br>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Informações de login</strong></legend>
+            <label for=""><strong>Email</strong></label>
+            <input type="email">
+            <br><br>
+
+            <label for=""><strong>Senha</strong></label>
+            <input type= "password">
+            <br><br>
+            <input type= "checkbox" required>
+            <label for=""><strong>lembre-me</strong></label>
+            <br><br>
+
+        </fieldset>
+    
+    <button type="reset">limpa Campos</button>
+    <button type="submit">enviar</button>
+</form>
+    
+</body>
+
+
+
+
+
+    </html>
